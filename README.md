@@ -1,7 +1,7 @@
-# Social Media Analysis - ReadMe
+# Social Media Analysis
 
 ## Introduction:
-The provided script is a basic R code for conducting a social media analysis. The script loads a dataset from a CSV file, performs some exploratory data analysis (EDA), and visualizes various aspects of the data using histograms, boxplots, scatter plots, and more. The analysis mainly focuses on variables like age, followers, and posts, among others.
+The script is a basic R code for conducting a social media analysis. The script loads a dataset from a CSV file, performs some exploratory data analysis (EDA), and visualizes various aspects of the data using histograms, boxplots, scatter plots, and more. The analysis mainly focuses on variables like age, followers, and posts, among others.
 
 ## Features:
 1. **Data Import**: Using R's `read.csv` function to import data.
@@ -9,36 +9,6 @@ The provided script is a basic R code for conducting a social media analysis. Th
 3. **Summary Statistics**: Provides a statistical summary of the dataset.
 4. **Data Visualization**: Creates histograms, boxplots, and scatter plots to explore the distribution and relationships between variables.
 5. **Correlation Analysis**: Computes a correlation matrix for selected variables.
-
-## Prerequisites:
-
-### Software:
-1. **R**: Ensure you have R and optionally RStudio installed.
-
-### R Libraries:
-Make sure to have the following R libraries installed:
-1. `ggplot2` - For data visualization.
-
-You can install it using:
-
-```R
-install.packages("ggplot2")
-```
-
-## How to Run:
-
-### Preparing your Data:
-1. Ensure your CSV data file is saved in the location: "file_path - Sheet1.csv".
-2. If your file is in a different location or has a different name, please update the path in the `read.csv` function.
-
-### Executing the Script:
-1. Save the provided R script to a file, say `SocialMediaAnalysis.R`.
-2. Open R or RStudio.
-3. Set the working directory to where the script is saved.
-4. Run the script using the command:
-```R
-source("SocialMediaAnalysis.R")
-```
 
 ## Analysis:
 
